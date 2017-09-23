@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/b2" />
+
+    <RelativeLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+     <TextView
+         android:id="@+id/plog"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="16dp"
+         android:text="Login"
+         />
+
+     <EditText
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:inputType="numberPassword"
+         android:layout_toRightOf="@id/plog"
+         android:layout_alignBaseline="@id/plog"
+         />
+
+     <TextView
+         android:id="@+id/ppass"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="16dp"
+         android:text="Hasło"
+         android:layout_below="@id/plog"
+         />
+
+     <EditText
+
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:layout_toRightOf="@id/ppass"
+         android:layout_alignBaseline="@id/ppass"
+         />
+ </RelativeLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LOGOWANIE"/>
+
+
+
+</LinearLayout>
