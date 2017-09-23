@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">"pierwszaL "</string>
+    <string name="niebieski">#0004FF</string>
+    <string name="czerw">#ff0015</string>
+    <string name="zolt">#fffb00</string>
+    <string name="szar">#bbbbbf</string>
+    <string name="ziel">#40ff00</string>
 </resources>
