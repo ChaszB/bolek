@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nieb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/niebieski"
+        android:text="@string/niebieski" />
+
+    <TextView
+        android:id="@+id/czer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nieb"
+        android:layout_toRightOf="@+id/nieb"
+        android:background="@color/czerw"
+        android:text="@string/czerw" />
+
+    <TextView
+        android:id="@+id/zol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/czer"
+        android:layout_toRightOf="@+id/czer"
+        android:background="@color/zolt"
+        android:gravity="center"
+        android:text="@string/zolt" />
+
+    <TextView
+        android:id="@+id/szar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zol"
+        android:layout_toRightOf="@+id/zol"
+        android:background="@color/szar"
+        android:gravity="center"
+        android:text="@string/szar" />
+
+    <TextView
+        android:id="@+id/ziel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/ziel"
+        android:gravity="center"
+        android:text="@string/ziel"
+        android:layout_below="@+id/szar"
+        android:layout_toEndOf="@+id/szar" />
+    <TextView
+        android:id="@+id/szar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ziel"
+        android:layout_toLeftOf="@+id/ziel"
+        android:background="@color/szar"
+        android:gravity="center"
+        android:text="@string/szar" />
+    <TextView
+        android:id="@+id/zol2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/szar2"
+        android:layout_toLeftOf="@+id/szar2"
+        android:background="@color/zolt"
+        android:gravity="center"
+        android:text="@string/zolt" />
+    <TextView
+        android:id="@+id/nieb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/czer2"
+        android:layout_toLeftOf="@+id/czer2"
+        android:background="@color/niebieski"
+        android:text="@string/niebieski" />
+
+    <TextView
+        android:id="@+id/czer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zol2"
+        android:layout_toLeftOf="@+id/zol2"
+        android:background="@color/czerw"
+        android:text="@string/czerw" />
+
+</RelativeLayout>
