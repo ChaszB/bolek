@@ -13,51 +13,48 @@
         android:src="@drawable/b2" />
 
     <RelativeLayout
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        >
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
 
-     <TextView
-         android:id="@+id/plog"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_marginTop="16dp"
-         android:text="Login"
-         />
+        <TextView
+            android:id="@+id/plog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Login" />
 
-     <EditText
-         android:layout_width="200dp"
-         android:layout_height="wrap_content"
-         android:inputType="numberPassword"
-         android:layout_toRightOf="@id/plog"
-         android:layout_alignBaseline="@id/plog"
-         />
+        <EditText
+            android:id="@+id/t1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/plog"
+            android:layout_toRightOf="@id/plog"
+            android:inputType="text" />
 
-     <TextView
-         android:id="@+id/ppass"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_marginTop="16dp"
-         android:text="Hasło"
-         android:layout_below="@id/plog"
-         />
+        <TextView
+            android:id="@+id/ppass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plog"
+            android:layout_marginTop="16dp"
+            android:text="Hasło" />
 
-     <EditText
-
-         android:layout_width="200dp"
-         android:layout_height="wrap_content"
-         android:layout_toRightOf="@id/ppass"
-         android:layout_alignBaseline="@id/ppass"
-         />
- </RelativeLayout>
+        <EditText
+            android:id="@+id/t2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/ppass"
+            android:inputType="textPassword"
+            android:layout_toRightOf="@id/ppass" />
+    </RelativeLayout>
 
     <Button
+        android:id="@+id/b0"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="LOGOWANIE"/>
-
+        android:text="LOGOWANIE" />
 
 
 </LinearLayout>

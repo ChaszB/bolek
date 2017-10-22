@@ -5,16 +5,32 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Witaj"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        </activity>
+        <activity android:name=".Zad9Ac">
+
+        </activity>
+        <activity android:name=".Zad10A">
+
+        </activity>
+        <activity android:name=".Zad3Activity">
+        </activity>
+        <activity android:name=".PierwszaActivity">
+        </activity>
+        <activity android:name=".MenActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <activity android:name=".SecActivity">
         </activity>
     </application>
 

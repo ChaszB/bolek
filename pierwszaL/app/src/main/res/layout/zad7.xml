@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/b2" />
+    <!-- zaczynam nową metodę wewnątra LinearLayout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/plog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Login" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/plog"
+            android:layout_toRightOf="@id/plog"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/ppass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plog"
+            android:layout_marginTop="16dp"
+            android:text="Hasło" />
+
+        <EditText
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/ppass"
+            android:layout_toRightOf="@id/ppass"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/ppass2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ppass"
+            android:layout_marginTop="16dp"
+            android:text="Powtórz hasło" />
+
+        <EditText
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/ppass2"
+            android:layout_toRightOf="@id/ppass2"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ppass2"
+            android:layout_marginTop="16dp"
+            android:text="e-mail" />
+
+        <EditText
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/mail"
+            android:layout_toRightOf="@id/mail"
+            android:inputType="textWebEmailAddress" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_below="@id/mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatEditText
+
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="Numer telefonu"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LOGOWANIE" />
+
+
+</LinearLayout>

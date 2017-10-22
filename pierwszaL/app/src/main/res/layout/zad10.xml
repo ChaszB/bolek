@@ -4,6 +4,7 @@
     android:layout_height="match_parent">
 
     <Button
+        android:id="@+id/b1"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:background="@color/niebieski"
@@ -11,18 +12,21 @@
         android:text="1" />
 
     <Button
+        android:id="@+id/b2"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:background="@color/czerw"
         android:layout_alignParentEnd="true"
         android:text="2" />
     <Button
+        android:id="@+id/b3"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:background="@color/zolt"
         android:layout_alignParentBottom="true"
         android:text="3" />
     <Button
+        android:id="@+id/b4"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:background="@color/ziel"
@@ -39,6 +43,7 @@
         android:layout_centerVertical="true"
         android:text="5" />
     <Button
+        android:id="@+id/b6"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:background="@color/szar"
@@ -47,6 +52,7 @@
         android:layout_alignBottom="@id/piaty"
         android:text="6" />
     <Button
+        android:id="@+id/b7"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:background="@color/szar"

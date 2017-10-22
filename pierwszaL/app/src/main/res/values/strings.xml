@@ -5,4 +5,49 @@
     <string name="zolt">#fffb00</string>
     <string name="szar">#bbbbbf</string>
     <string name="ziel">#40ff00</string>
+    
+    <string name="info4">Informatyka Europejczyka. Podręcznik dla szkoły podstawowej. Klasa 4</string>
+    <string name="info4o">Ta książka zabierze Cię na wycieczkę do świata informatyki!
+
+Pora rozpocząć fascynującą przygodę z informatyką! Wiesz już, że komputery są praktycznie wszędzie — w domach, szkołach, sklepach, na dworcach, w biurach i supertajnych pracowniach. Nie służą jedynie do zabawy, chociaż gry komputerowe i przeróżne aplikacje potrafią dostarczyć mnóstwo rozrywki. A internet? To prawdziwa skarbnica wiedzy. Pod warunkiem że wiesz, jak z niego korzystać.
+
+Ten podręcznik do informatyki pomoże Ci poznać komputery z trochę innej strony niż dotychczas. Dzięki tej książce z serii Informatyka Europejczyka zaczniesz sprawnie i bezpiecznie korzystać z komputera oraz internetu. Nauczysz się szybko i bezbłędnie pisać na klawiaturze, tworzyć rysunki i poprawiać zdjęcia. Twoje zadania domowe będą świetnie sformatowane i w dodatku poszerzone o nowe, ciekawe wiadomości wyszukane w internecie. Dowiesz się, w jaki sposób porozumiewać się z koleżankami i kolegami przy użyciu komunikatora, i razem przeprowadzicie kilka ciekawych projektów. Nauczysz się tworzyć gry komputerowe — dowiesz się, od czego zacząć, i zdobędziesz umiejętności programowania, które pozwolą Ci wykreować własny świat w komputerze. Przed Tobą kilka miesięcy wspaniałej zabawy połączonej z nauką obsługi komputera.
+
+Wszystkie najważniejsze definicje, uwagi i objaśnienia zawarte w podręczniku Informatyka Europejczyka. Podręcznik dla szkoły podstawowej. Klasa 4 zostały wyróżnione, by łatwiej było je zapamiętać. Autorki nie zapomniały także o interesujących wiadomościach z dziedziny informatyki, które sprawią, że lekcje staną się ciekawsze i zainspirują do dalszych poszukiwań. Na końcu każdej z nich znajdują się pytania i zadania do samodzielnego rozwiązania,
+
+Podręczniki z serii Informatyka Europejczyka uczniom ułatwią zdobywanie wiedzy i umiejętności podczas wykonywania ćwiczeń praktycznych, a nauczycielom — przekazywanie nowego materiału w interesujący i niebanalny sposób. Helion, największe wydawnictwo informatyczne w Polsce, i tym razem wspiera młodzież w zakresie wykorzystywania nowoczesnych technologii do nauki, pracy i rozrywki.</string>
+    <string name="e13">Kwalifikacja E.13. Projektowanie lokalnych sieci komputerowych i administrowanie sieciami</string>
+    <string name ="e13o">Technik informatyk nie jest zwykłym użytkownikiem komputerów. Jeśli uczeń wybiera szkołę o takim profilu, z czasem staje się prawdziwym komputerowym ekspertem.
+
+        Kwalifikacja E.13. Projektowanie lokalnych sieci komputerowych i administrowanie sieciami jest doskonałą merytorycznie odpowiedzią na wprowadzenie nowej podstawy programowej. Uczniowie znajdą tu rodzaje i topologie sieci oraz protokoły sieciowe (zarówno komunikacji, jak i warstwy aplikacji). Podczas zajęć dowiedzą się, jak konfigurować liczne urządzenia sieciowe, w tym przełączniki, koncentratory, karty sieciowe, routery i modemy. Nie do przecenienia są zawarte tu wiadomości z zakresu projektowania i samodzielnej budowy sieci komputerowej. Natomiast praktyczne informacje dotyczące zarządzania systemami operacyjnymi (Windows, Linux) pozwolą na zdobycie kompetencji administratora sieci.
+
+        „Technik Informatyk” to doskonały, charakteryzujący się wysoką jakością i kompletny zestaw edukacyjny, przygotowany przez dysponującego ogromnym doświadczeniem lidera na rynku książek informatycznych - wydawnictwo Helion.
+
+        W skład zestawu „Technik Informatyk” wchodzą także: Kwalifikacja E.12. Montaż i eksploatacja komputerów osobistych oraz urządzeń peryferyjnych Kwalifikacja E.14. Część 1. Tworzenie stron internetowych. Podręcznik do nauki zawodu technik informatyk Kwalifikacja E.14. Część 2. Tworzenie baz danych i administrowanie bazami. Podręcznik do nauki zawodu technik informatyk Kwalifikacja E.14. Część 3. Tworzenie aplikacji internetowych. Podręcznik do nauki zawodu technik informatyk
+
+        Podręczniki oraz inne pomoce naukowe należące do tej serii zostały opracowane z myślą o wykształceniu kompetentnych techników, którzy bez trudu poradzą sobie z wyzwaniami w świecie współczesnej informatyki. Według nowych przepisów, aby otrzymać dyplom w zawodzie technik informatyk, należy zdać szereg egzaminów potwierdzających kolejne kwalifikacje w zawodzie. Książka ta powstała po to, by ułatwić to zadanie zarówno uczącym się, jak i pedagogom. Wiedza w niej zawarta pomoże zdać egzamin i zyskać wiedzę praktyczną, przydatną w przyszłej pracy.</string>
+    <string name="cz">Czysty kod. Podręcznik dobrego programisty</string>
+    <string name="czo">Poznaj najlepsze metody tworzenia doskonałego kodu
+
+Jak pisać dobry kod, a zły przekształcić w dobry?
+Jak formatować kod, aby osiągnąć maksymalną czytelność?
+Jak implementować pełną obsługę błędów bez zaśmiecania logiki kodu?
+O tym, ile problemów sprawia niedbale napisany kod, wie każdy programista. Nie wszyscy jednak wiedzą, jak napisać ten świetny, „czysty” kod i czym właściwie powinien się on charakteryzować. Co więcej – jak odróżnić dobry kod od złego? Odpowiedź na te pytania oraz sposoby tworzenia czystego, czytelnego kodu znajdziesz właśnie w tej książce. Podręcznik jest obowiązkową pozycją dla każdego, kto chce poznać techniki rzetelnego i efektywnego programowania.
+
+W książce „Czysty kod. Podręcznik dobrego programisty” szczegółowo omówione zostały zasady, wzorce i najlepsze praktyki pisania czystego kodu. Podręcznik zawiera także kilka analiz przypadków o coraz większej złożoności, z których każda jest doskonałym ćwiczeniem porządkowania zanieczyszczonego bądź nieudanego kodu. Z tego podręcznika dowiesz się m.in., jak tworzyć dobre nazwy, obiekty i funkcje, a także jak tworzyć testy jednostkowe i korzystać z programowania sterowanego testami. Nauczysz się przekształcać kod zawierający problemy w taki, który jest solidny i efektywny.
+
+Nazwy klas i metod
+Funkcje i listy argumentów
+Rozdzielanie poleceń i zapytań
+Stosowanie wyjątków
+Komentarze
+Formatowanie
+Obiekty i struktury danych
+Obsługa błędów
+Testy jednostkowe
+Klasy i systemy
+Współbieżność
+Oczyszczanie kodu
+Niech stworzony przez Ciebie kod imponuje czystością!</string>
+
 </resources>
