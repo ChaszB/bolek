@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "972981912905",
+    "firebase_url": "https://test-2dd1d.firebaseio.com",
+    "project_id": "test-2dd1d",
+    "storage_bucket": "test-2dd1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972981912905:android:d195b912644daa26",
+        "android_client_info": {
+          "package_name": "com.pawel.projinternet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972981912905-6j23g5iu4e5grc1khe71uusgm3bdbsl6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTj7ZFUD8kzlf14pI5d9FyTyOV7mV9XF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -78,6 +78,8 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        startService(new Intent(this, FCMService.class));
+
         viewPager = (ViewPager) findViewById(R.id.glow);
         tabLayout = (TabLayout) findViewById(R.id.tabL);
         tabLayout.addTab(tabLayout.newTab().setText("Frag1"));
